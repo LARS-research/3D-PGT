@@ -1,4 +1,4 @@
-# Adaptive 3D Pre-training for Molecular Property Prediction
+# Automated 3D Pre-training for Molecular Property Prediction
 
 ![3D PGT-viz](./Method_Framework.png)
 
@@ -36,4 +36,15 @@ You can use the following code to ```finetune``` downstream tasks, but pay atten
 ```
 Running 3D PGT for finetuning on GEOM-Drugs dataset
 python main.py --cfg configs/GPS/finetune_Drugs.yaml
+```
+
+## Cite
+Please kindly cite our paper if you use this code:
+```
+@article{wang2023automated,
+  title={Automated 3D Pre-Training for Molecular Property Prediction},
+  author={Wang, Xu and Zhao, Huan and Tu, Weiwei and Yao, Quanming},
+  journal={arXiv preprint arXiv:2306.07812},
+  year={2023}
+}
 ```
